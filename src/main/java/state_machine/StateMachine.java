@@ -28,5 +28,4 @@ public class StateMachine<I, O> implements Behaviour<I, O>, Debuggable<I> {
     public String getRunningStateName() {
         return nextState.getName();
     }
-
 }
